@@ -19,6 +19,13 @@ div {
 .button {
     font-size: 40px;
     text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px grey;
+}
+
+.button:active {
+    box-shadow: 0 2.5px grey;
+    transform: translateY(4px);
 }
 
 .number {
