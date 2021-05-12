@@ -1,7 +1,7 @@
 /*버튼 가운데 정렬*/
 /*미디어 쿼리 추가*/
 * {
-    font-family: 'Noto Sans KR';
+    
 }
 
 div {
@@ -13,6 +13,10 @@ div {
 #buttons {
     width: 300px;
     height: 300px;
+    margin: auto;
+}
+
+.button {
     font-size: 40px;
     text-align: center;
 }
@@ -22,6 +26,8 @@ div {
     color: white;
     border-radius: 10px;
     margin: 5px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
 }
 
 .sign {
@@ -29,6 +35,8 @@ div {
     color: white;
     border-radius: 10px;
     margin: 5px;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
 }
 
 .column {
