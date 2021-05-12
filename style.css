@@ -1,4 +1,9 @@
 /*버튼 가운데 정렬*/
+/*미디어 쿼리 추가*/
+* {
+    font-family: 'Noto Sans KR';
+}
+
 div {
     display: grid;
 }
