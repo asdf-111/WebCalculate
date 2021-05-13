@@ -12,6 +12,15 @@ div {
     background-color: lightgrey;
 }
 
+#textField {
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    font-size: 40px;
+    text-align: left;
+}
+
 #buttons {
     width: 300px;
     height: 300px;
