@@ -1,15 +1,17 @@
-/*버튼 가운데 정렬*/
-/*미디어 쿼리 추가*/
-* {
-    
-}
-
 div {
     display: grid;
 }
 
-/* 텍스트 세로 중앙 정렬*/
-/*버튼 위에서 포인터 모양 변화*/
+/* 텍스트 세로 중앙 정렬 필요*/
+
+#textBox {
+    width: 290px;
+    height: 65px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
 #buttons {
     width: 300px;
     height: 300px;
@@ -20,12 +22,6 @@ div {
     font-size: 40px;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 5px grey;
-}
-
-.button:active {
-    box-shadow: 0 2.5px grey;
-    transform: translateY(4px);
 }
 
 .number {
